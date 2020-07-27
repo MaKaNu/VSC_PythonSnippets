@@ -2,6 +2,12 @@
 // Goto File -> Preferences -> User Snippets
 // Type "Python" into the prompt and create a new python.json file
 // Copy the snippet below into the file
+//
+// What it creates:
+// Creates a function __set<name>
+// The function checks if the value x, which should be setted is of 
+// a specific type <Type>.
+// If not the function raises a ValueError with the message <message> 
 
 "set function": {
 		"prefix": "set",
@@ -12,4 +18,5 @@
 			"\telse:",
 			"\t\traise ValueError(x, '$3')"
 		],
+		"description": "set function snippet"
 	}
