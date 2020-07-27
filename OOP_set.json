@@ -5,6 +5,7 @@
 //
 // What it creates:
 // Creates a function __set<name>
+// The first letter of <name> will be uppercased inside the functionname
 // The function checks if the value x, which should be setted is of 
 // a specific type <Type>.
 // If not the function raises a ValueError with the message <message> 
