@@ -1,0 +1,8 @@
+"get function": {
+		"prefix": "get",
+		"body": [
+			"def __get${1/(^[\\w])/${1:/upcase}/}(self):",
+			"\treturn self.__${1}"
+		],
+		"description": "get function snippet"
+	}
