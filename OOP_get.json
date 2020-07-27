@@ -1,3 +1,13 @@
+// How to use:
+// Goto File -> Preferences -> User Snippets
+// Type "Python" into the prompt and create a new python.json file
+// Copy the snippet below into the file
+//
+// What it creates:
+// Creates a function __get<name>
+// The first letter of <name> will be uppercased inside the functionname
+// The function returns the value of the variable self.__name
+
 "get function": {
 		"prefix": "get",
 		"body": [
